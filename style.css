@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(to bottom, #4490b9, #5e3dd8);
+    background-image: linear-gradient(to bottom, #1882ba, #65159a);
     
     margin: 0;
     padding: 0;
@@ -23,25 +23,42 @@ body {
     text-align: center; /* Alinhar o conteúdo no centro do container */
 }
 #title,#Visual{
+    margin-top: 20px;
     font: 1.5em sans-serif;
     color: rgb(85, 85, 85);
 }
 #valorTotalInput,#valorHorasInput,#valorDiasInput,#valorFeriasInput{
     border: 2px solid rgba(0, 0, 0, 0.2); /* Define o contorno com uma cor e opacidade */
-    opacity: 0.7; /* Define a opacidade do elemento (0.7 = 70%) */
+    opacity: 0.7; /* Define a opacidade do elemento */
     padding: 10px;
     border-radius: 4px;
-    stle
 }
 #Bottom{ 
-    width: 60%;
-    padding: 10px;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-    color: white;
+   width: 60%;
+    padding:10px;
+    border-radius:5px;
+    border:none;
+    cursor:pointer;
+    color:white;
     background-color: #5e3dd8;
 }
 #Bottom:hover{
     background-color: #712bc0;
+}
+#Contaier_2{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+#Resultado{ 
+    border-style: solid;
+    border-color: #8abadb;
+    height: 40px;
+    background-color: #1882ba;
+    color: aliceblue;
+    border-radius: 300px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    width: 40px;
 }
