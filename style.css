@@ -1,0 +1,47 @@
+body {
+    background-image: linear-gradient(to bottom, #4490b9, #5e3dd8);
+    
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; 
+    height: 100vh; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+}
+
+.container {
+    border-radius: 3%;
+    width: 300px; 
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #ccc;
+    text-align: center; /* Alinhar o conteúdo no centro do container */
+}
+#title,#Visual{
+    font: 1.5em sans-serif;
+    color: rgb(85, 85, 85);
+}
+#valorTotalInput,#valorHorasInput,#valorDiasInput,#valorFeriasInput{
+    border: 2px solid rgba(0, 0, 0, 0.2); /* Define o contorno com uma cor e opacidade */
+    opacity: 0.7; /* Define a opacidade do elemento (0.7 = 70%) */
+    padding: 10px;
+    border-radius: 4px;
+    stle
+}
+#Bottom{ 
+    width: 60%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: #5e3dd8;
+}
+#Bottom:hover{
+    background-color: #712bc0;
+}

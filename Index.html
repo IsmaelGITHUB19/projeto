@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valor da minha hora por Freela</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="container">
+   <form action="Index.html" method="get">
+    <section>
+        <h1 id="title" align="center">
+              Cálculo Freela
+        </h1>
+    </section>
+    <section class="input_edit">
+        <div id="total">
+
+            <input type="number" placeholder="Valor total do projeto" id="valorTotalInput">
+        </div>
+        
+        <div id="horas">
+            <br>
+            <input type="number" placeholder="Horas trabalhadas" id="valorHorasInput">
+        </div>
+        
+        <div id="dias">
+             <br>
+            <input type="number" placeholder="Dias efetivos" id="valorDiasInput">
+        </div>
+        
+        <div id="ferias">
+                <br>
+            <input type="number" placeholder="Dias de férias" id="valorFeriasInput">
+        </div> <br>
+    </section>
+    <button  id="Bottom" type="button" onclick="calcularValores()">Cálcular</button>
+        <p id="Visual">
+            Resultado
+        </p>
+        <p id="Resultado">
+        
+        </p>
+   </form>
+</div>
+</body>
+</html>
